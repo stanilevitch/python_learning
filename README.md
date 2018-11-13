@@ -64,6 +64,17 @@ Przed łańcuchem musimy podać literkę `u` (od unicode).
 print(u'Powierzchnia prostokąta = %s' % area)
 ```
 
+|  Struktura  | Identyfikator | Przykład	                                | Typowe użycie                                                               |
+| ------------|:-------------:|:-------------------------------------------:|:---------------------------------------------------------------------------:|
+| lista	      | list	      | Liczby = [1,4,6,3]                          | Operacje na listach danych (sortowanie, łączenie i dzielenie, modyfikacje)  |
+| krotka	  | tuple	      | Czerwień = (255, 0, 0)	                    | Rekord bazy danych, parametr. Krotek nie można modyfikować!                 |
+| słownik	  | dict	      | Numery = {‘raz’: 1, ‘dwa’: 2, ‘trzy’: 3}    | Dostęp do danych poprzez nazwę.                                             |     
+| zbiór	      | set	          | set([‘Gniezno’, ‘Kraków’, ‘Warszawa’])	    | Sprawdzenie czy jest w zbiorze                                              |
+
+`Lista` służy do przechowywania uporządkowanej kolekcji obiektów (danych).
+
+
+
 # LINKS:
 [Graphviz - Graph Visualization Software(like UML, Roadmap)](https://www.graphviz.org/)
 #### Python:
@@ -74,12 +85,3 @@ print(u'Powierzchnia prostokąta = %s' % area)
 
 #### Python and Selenium
 [Selenium with Python: short instruction YouTube](https://www.youtube.com/watch?v=FFDDN1C1MEQ)
-
--
--
--
-
-
-c.d.
-https://leanpub.com/pyprog/read#leanpub-auto-klasy
-Przetwarzanie niewielkich ilości danych

@@ -71,7 +71,65 @@ print(u'Powierzchnia prostokąta = %s' % area)
 | słownik	  | dict	      | Numery = {‘raz’: 1, ‘dwa’: 2, ‘trzy’: 3}    | Dostęp do danych poprzez nazwę.                                             |     
 | zbiór	      | set	          | set([‘Gniezno’, ‘Kraków’, ‘Warszawa’])	    | Sprawdzenie czy jest w zbiorze                                              |
 
+### Listy
+
 `Lista` służy do przechowywania uporządkowanej kolekcji obiektów (danych).
+
+dodanie: `append`
+
+sortowanie: `sort`
+
+usuwanie: `del` =>>> `del shoplist[0]` usuwa pierwszy element z listy
+
+`remove =>>> shoplist.remove('rice')`
+
+`len()` określająca długość listy.
+
+
+```python
+print(item, end=' ')
+```
+
+### Krotki
+Krotki są używane do przechowywania razem kilku obiektów. Są one podobne do list, ale pozbawione części funkcjonalności (nie można ich modyfikować). Krotki są definiowane poprzez umieszczenie elementów rozdzielonych przecinkami w nawiasach okrągłych () - podczas gdy listy określa się nawiasami kwadratowymi.
+Krotki są zwykle stosowane w przypadkach, gdy chcemy uniknąć możliwości zmieniania danych. Na przykład dane odczytane z bazy danych powinny być używane w niezmienionej formie.
+
+```python
+`Każde dwa elementy rozdzielone przecinkiem (lub jedna zakończona przecinkiem) są traktowane jak krotka.
+1   a=1,
+2   krotka=1,a,3
+3   print(krotka)
+```
+`singleton = (2, )` -krotka jednoelementowa (Bez przecinka (2) będzie traktowane jak liczba (możesz sprawdzić drukując `(2).__class__.` )
+```python
+(2,).__class__
+<class 'tuple'>
+(2).__class__
+<class 'int'>
+```
+
+### Słowniki
+Słownik można przyrównać do książki adresowej, gdzie można znaleźć adres lub dane teleadresowe osoby, znając tylko jego / jej imię i nazwisko. 
+Słownik kojarzy klucze (nazwy) z wartościami (szczegóły).
+Stąd używana czasem nazwa ‘tablice asocjacyjne’ (od asocjacja = skojarzenie).
+
+```python
+f = {1:'ddd'}
+f
+{1: 'ddd'}
+f.__class__
+<class 'dict'>
+f = {1:'ddd'}.items()
+f
+dict_items([(1, 'ddd')])
+f.__class__
+<class 'dict_items'>
+```
+
+
+
+
+
 
 
 

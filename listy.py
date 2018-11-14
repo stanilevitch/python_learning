@@ -18,3 +18,5 @@ print("Zapamiętam, że nie kupiłem: %s" % firstitem)
 print("Ostateczna lista zakupów: %s" % shoplist)
 for item in shoplist:
     print(f"- {item}")
+shoplist.remove('rice')
+print(shoplist)

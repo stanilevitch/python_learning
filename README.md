@@ -205,6 +205,25 @@ True
 Instrukcja `if` służy do zaznaczenia bloku instrukcji, który się wykona wyłącznie wtedy, gdy prawdziwe będzie wyrażeni logiczne sprawdzane przed wejściem do tego bloku. 
 Jeśli warunek jest spełniony, wykonywany jest blok instrukcji (możemy go określić jako “blok warunkowy”). w przeciwnym wypadku możemy wskazać inny blok instrukcji do wykonania. Służy do tego słowo kluczowe `else`. Użycie `else` jest opcjonalne. 
 
+Program pozwala na wprowadzanie liczby od użytkownika (funkcją `input()`
+Zarówno `elif` jak i `else` są opcjonalne. Minimalna struktura instrukcji `if` może wyglądać następująco: 
+```python
+1 if True:
+2    print('Tak, to prawda')
+```
+Co najmniej jedna instrukcja w bloku warunkowym jest wymagana!!! Jeśli nic nie ma do zrobienia – użyj instrukcji pustej `pass`.
+
+#### Pęlta while
+Pętla `while` jest podobna do instrukcji warunkowej (if). W obu wypadkach blok instrukcji wykonuje się pod warunkiem, że podany warunek (wyrażenie logiczne) jest spełniony. Jedyna różnica polega na tym, że blok warunkowy w instrukcji if wykona się raz, gdy tymczasem blok pętli while wykonuje się tak długo, jak długo warunek jest spełniony.
+
+
+c,d,n
+
+
+
+
+### Instrukcje break i continue
+
 
 
 

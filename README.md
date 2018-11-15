@@ -148,18 +148,78 @@ for name, address in ab.items():
     print("Adres {} to {}".format(name, address))
 ```
 ### Zbiory
+nieuporządkowana kolekcja prostych obiektów. Są one stosowane, gdy ważne jest tylko istnienie obiektu w kolekcji, lub ilość wystąpień. Można je kojarzyć ze zbiorami w matematyce. Mamy podobne operacje: sprawdzenie członkostwa, podzbiory, przecięcia itd….
 
-ccccc.ddddd
+```python
+# WEJŚCIE:
+bri = set(['brazil', 'russia', 'india'])
+print('india' in bri)
+print('*'*10)
+bric = bri.copy()
+bric.add('china')
+print('BRI =')
+print(bri)
+print('*'*10)
+print('BRIc =')
+print(bric)
+print('*'*10)
+print('BRI podzbiorem BRIc?')
+print(bric.issuperset(bri))
+print('*'*10)
+bri.remove('russia')
+print(bric)
+print('+'*10)
+print(bri & bric)
+print('='*10)
+bric.intersection(bri)
+print('^'*10)
+print(bric)
+print('#'*10)
 
-- https://leanpub.com/pyprog/read#leanpub-auto-klasy
-http://users.uj.edu.pl/~ufkapano/algorytmy/lekcja07/with.html
-https://pythonprogramming.net/reading-csv-files-python-3/
-https://pl.python.org/docs/tut/node5.html
+# WYJŚCIE:
+True
+**********
+BRI =
+{'brazil', 'russia', 'india'}
+**********
+BRIc =
+{'brazil', 'russia', 'india', 'china'}
+**********
+BRI podzbiorem BRIc?
+True
+**********
+{'brazil', 'russia', 'india', 'china'}
+++++++++++
+{'brazil', 'india'}
+==========
+^^^^^^^^^^
+{'brazil', 'russia', 'india', 'china'}
+##########
 
-- book:
-pyprog.pdf
-Slatkin B.
+```
+### WHILE, FOR, IF
+ Pętla `while` różni się od pętli `for` przede wszystkim tym, że nie musimy mieć w chwili jej rozpoczęcia informacji o zbiorze danych jaki będzie przetwarzany. 
+ Warunkiem powtarzania pętli może być dowolne wyrażenie logiczne (tak zwany niezmiennik pętli).
 
+#### Instrukcja warunkowa (if)
+Instrukcja `if` służy do zaznaczenia bloku instrukcji, który się wykona wyłącznie wtedy, gdy prawdziwe będzie wyrażeni logiczne sprawdzane przed wejściem do tego bloku. 
+Jeśli warunek jest spełniony, wykonywany jest blok instrukcji (możemy go określić jako “blok warunkowy”). w przeciwnym wypadku możemy wskazać inny blok instrukcji do wykonania. Służy do tego słowo kluczowe `else`. Użycie `else` jest opcjonalne. 
+
+
+
+
+
+
+> MATERIALS: c.d.n
+> https://leanpub.com/pyprog/read#leanpub-auto-klasy
+> http://users.uj.edu.pl/~ufkapano/algorytmy/lekcja07/with.html
+> https://pythonprogramming.net/reading-csv-files-python-3/
+> https://pl.python.org/docs/tut/node5.html
+> 
+> book:
+> pyprog.pdf
+> Slatkin B.
+> 
 
 
 

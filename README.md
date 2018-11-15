@@ -125,6 +125,40 @@ dict_items([(1, 'ddd')])
 f.__class__
 <class 'dict_items'>
 ```
+```python
+ab = {key:value}
+------
+ab = {
+    'name' : 'name@email.com'
+    }
+# Usuwanie pary z listy
+del ab['name']
+# Dodawanie i zamiana elementów do słownika
+ab[Guido] = guido@python.org
+ że jeśli nie ma danych dla klucza ‘Guido’ zostanie dodany do słownika element z takim kluczem. Jeśli już w słowniku jest – nastąpi zmiana adresu.
+# Sprawdzenie czy element o danym kluczu jest na liście:
+if 'Guido' in ab:
+    print("Adres Guido to: %s" % ab['Guido'])
+
+```
+ ```python
+przeglądanie elementów słownika z wykorzystaniem metody items(). Zwraca ona po kolei pary klucz, wartość – jako elementy krotki.
+---
+for name, address in ab.items():
+    print("Adres {} to {}".format(name, address))
+```
+### Zbiory
+
+ccccc.ddddd
+
+- https://leanpub.com/pyprog/read#leanpub-auto-klasy
+http://users.uj.edu.pl/~ufkapano/algorytmy/lekcja07/with.html
+https://pythonprogramming.net/reading-csv-files-python-3/
+https://pl.python.org/docs/tut/node5.html
+
+- book:
+pyprog.pdf
+Slatkin B.
 
 
 

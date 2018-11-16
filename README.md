@@ -218,7 +218,7 @@ Pętla `while` jest podobna do instrukcji warunkowej (if). W obu wypadkach blok 
 
 
 c,d,n
-
+...objasnienie if na while przykład...
 
 
 

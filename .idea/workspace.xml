@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdd0fcab-ced9-499e-9b13-eed6b095ec8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/instrukcja_if_na_while.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pelta_while.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -43,13 +41,13 @@
         <counts>
           <entry key="Python Console" value="1687" />
           <entry key="gitignore" value="6" />
-          <entry key="md" value="1662" />
+          <entry key="md" value="1700" />
           <entry key="py" value="2959" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1646" />
+          <entry key="Markdown" value="1684" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Python" value="4662" />
         </counts>
@@ -80,8 +78,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="272">
-                <caret line="224" column="3" selection-start-line="224" selection-start-column="3" selection-end-line="224" selection-end-column="3" />
+              <first_editor relative-caret-position="204">
+                <caret line="220" column="38" selection-start-line="220" selection-start-column="38" selection-end-line="220" selection-end-column="38" />
               </first_editor>
               <second_editor />
             </state>
@@ -169,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="683" />
     <option name="width" value="683" />
     <option name="height" value="728" />
@@ -359,7 +357,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="683" y="0" width="683" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.4744186" />
@@ -367,13 +365,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41734862" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42857143" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39876354" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3394958" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3394958" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.48281506" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -557,8 +555,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="272">
-            <caret line="224" column="3" selection-start-line="224" selection-start-column="3" selection-end-line="224" selection-end-column="3" />
+          <first_editor relative-caret-position="204">
+            <caret line="220" column="38" selection-start-line="220" selection-start-column="38" selection-end-line="220" selection-end-column="38" />
           </first_editor>
           <second_editor />
         </state>

@@ -219,7 +219,7 @@ Pętla `while` jest podobna do instrukcji warunkowej (if). W obu wypadkach blok 
 
 c,d,n
 ...objasnienie if na while przykład...
-
+https://leanpub.com/pyprog/read#leanpub-auto-zbiory
 
 
 ### Instrukcje break i continue

@@ -256,3 +256,55 @@ https://leanpub.com/pyprog/read#leanpub-auto-zbiory
 
 #### Python and Selenium
 [Selenium with Python: short instruction YouTube](https://www.youtube.com/watch?v=FFDDN1C1MEQ)
+
+# ALX:
+Generowanie pliku `requirements.txt`, w którym zawarte są wszystkie informacje co zostało zainstalowane na środowisku projektu by aplikacja działała poprawnie.
+Po pobraniu projektu, użytkownik automatycznie zainstaluje na swoim komputerze wszystkie zarejestrowane dodatki.
+ e.g.
+ - `pip freeze` wyświetla jakie mamy zainstalowane moduły na środowisku projektu (poniżej wydrukowana lista w konsoli):
+``````python
+C:\Users\Marcin\PycharmProjects\python_learning>pip freeze
+certifi==2018.8.24
+convertdate==2.0.2
+filelock==3.0.9
+numpy==1.15.4
+pipenv==2018.10.9
+pluggy==0.8.0
+py==1.7.0
+pygame==1.9.4
+pytz==2018.7
+six==1.11.0
+toml==0.10.0
+tox==3.5.2
+virtualenv==16.0.0
+virtualenv-clone==0.3.0
+```````
+- poniżej polecenie `pip freeze > requirements.txt` do tworzenia pliku w projekcie:
+
+```python
+C:\Users\Marcin\PycharmProjects\python_learning>pip freeze > requirements.txt
+```
+- **Instalacja środowiska** użytkownik po otrzymaniu pliku z listą modułów, uruchamia instalację podając polecenie `pip install -r requirements.txt`:
+
+```python
+C:\Users\Marcin\PycharmProjects\python_learning>pip install -r requirements.txt
+```
+##### PLIK WYKONYWALNY
+`pip install pyinstaller`
+```python
+C:\Users\Marcin\PycharmProjects\python_learning>pip install pyinstaller
+```
+wchodzę do folderu (pakietu) gdzie na podstawie `plik.py` zostanie utworzony plik wykonywalny w formacie `*.exe` 
+W celu sprawdzenia działania programu uruchamiam z terminala:
+```python
+C:\Users\Marcin\PycharmProjects\python_learning\gui_example>python date_exmpl.py
+
+Hello World
+2018-11-19
+```
+OK, następnie uruchamiam polecenie które utworzy plik `date_exmpl.exe`:
+```python
+C:\Users\Marcin\PycharmProjects\python_learning\gui_example>pyinstaller --onefile date_exmpl.py
+```
+
+pyinstaller --onefile
